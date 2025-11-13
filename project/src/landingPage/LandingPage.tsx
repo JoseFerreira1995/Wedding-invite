@@ -3,9 +3,9 @@ import { ArrowUpIcon, BirdIcon } from "lucide-react";
 import { useState } from "react";
 
 export default function LandingPage() {
-  const [isClicked, setIsClicked] = useState(true);
+  const [isClicked, setIsClicked] = useState<boolean>(true);
 
-  const handleClick = () => {
+  const handleClick = (): void => {
     return setIsClicked(false);
   };
   return (
