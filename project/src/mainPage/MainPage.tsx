@@ -1,4 +1,4 @@
-import Card from "@/components/card";
+import Card from "@/components/Card";
 import image from "../assets/4W8A9005.jpg";
 import bgImage from "../assets/4W8A9242.jpg";
 import { Calendar1Icon, MapPlusIcon, MessageCircleIcon } from "lucide-react";
