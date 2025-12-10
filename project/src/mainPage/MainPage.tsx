@@ -8,29 +8,33 @@ import { useNavigate } from "react-router-dom";
 export default function MainPage() {
   const navigate = useNavigate();
 
-const calendar = "https://calendar.google.com/calendar/u/0/r/day/2026/7/11?tab=mc&date=20081101";
-const mapAddress = "https://maps.app.goo.gl/uyJFurUmVWxohYU67";
-const contactChatJose = "https://wa.me/351911527645";
-const contactChatInes = "https://wa.me/351939504513";
+  const calendar =
+    "https://calendar.google.com/calendar/u/0/r/day/2026/7/11?tab=mc&date=20081101";
+  const mapAddress = "https://maps.app.goo.gl/uyJFurUmVWxohYU67";
+  const contactChatJose = "https://wa.me/351911527645";
+  const contactChatInes = "https://wa.me/351939504513";
 
   return (
     <>
       <section>
         <div className="relative">
-          <div className="absolute sm:inset-0 mt-10">
-            <h1 className="font-Alex text-center text-orange-200 text-6xl">
+          <div className="absolute sm:inset-0 mt-10 ml-20">
+            <h1 className="font-Alex text-orange-200 text-6xl text-center">
               Inês e José
             </h1>
           </div>
           <div>
-            <img className="w-full object-cover" src={bgImage}></img>
+            <img
+              className="w-full object-cover aspect-3/2"
+              src={bgImage}
+            ></img>
           </div>
         </div>
       </section>
       <section>
         <div className=" flex flex-col gap-10 mt-20 sm:flex-col rounded-xl">
           <div className=" bg-orange-200 p-10">
-            <p className=" font-open m-5 p-3 text-center text-2xl text-sky-700">
+            <p className=" font-open m-5 p-3 text-center text-2xl text-sky-700 ">
               Vem celebrar connosco o nosso casamento!
             </p>
           </div>
