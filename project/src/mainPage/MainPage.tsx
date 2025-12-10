@@ -18,7 +18,7 @@ export default function MainPage() {
     <>
       <section>
         <div className="relative">
-          <div className="absolute sm:inset-0 mt-10 ml-20">
+          <div className="absolute sm:inset-0 mt-10 ml-18">
             <h1 className="font-Alex text-orange-200 text-6xl text-center">
               Inês e José
             </h1>
@@ -34,7 +34,7 @@ export default function MainPage() {
       <section>
         <div className=" flex flex-col gap-10 mt-20 sm:flex-col rounded-xl">
           <div className=" bg-orange-200 p-10">
-            <p className=" font-open m-5 p-3 text-center text-2xl text-sky-700 ">
+            <p className=" font-open m-5 p-3 text-center text-4xl text-sky-700 ">
               Vem celebrar connosco o nosso casamento!
             </p>
           </div>
