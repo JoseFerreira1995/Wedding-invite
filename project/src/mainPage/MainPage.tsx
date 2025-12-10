@@ -18,14 +18,14 @@ export default function MainPage() {
     <>
       <section>
         <div className="relative">
-          <div className="absolute sm:inset-0 mt-10 ml-18">
-            <h1 className="font-Alex text-orange-200 text-6xl text-center">
+          <div className="absolute sm:inset-0 mt-20 ml-16">
+            <h1 className="font-Alex text-orange-200 text-7xl text-center">
               Inês e José
             </h1>
           </div>
           <div>
             <img
-              className="w-full object-cover aspect-3/2"
+              className=" size-200 w-full object-cover aspect-3/2"
               src={bgImage}
             ></img>
           </div>
@@ -39,7 +39,7 @@ export default function MainPage() {
             </p>
           </div>
           <img
-            className=" max-w-md rounded-xl shadow-lg aspect-3/4 object-cover"
+            className="max-w-md rounded-xl shadow-lg aspect-3/4 object-cover"
             src={image}
           ></img>
         </div>
