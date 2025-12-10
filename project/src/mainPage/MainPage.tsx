@@ -18,8 +18,8 @@ export default function MainPage() {
     <>
       <section>
         <div className="relative">
-          <div className="absolute sm:inset-0 mt-20 ml-16">
-            <h1 className="font-Alex text-orange-200 text-7xl text-center">
+          <div className="absolute sm:inset-0 mt-20 ml-[15%]">
+            <h1 className="font-Alex text-orange-200 text-6xl sm:text-center">
               Inês e José
             </h1>
           </div>
