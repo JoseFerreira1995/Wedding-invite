@@ -13,7 +13,7 @@ import {
 
 export default function MainPage() {
   const navigate = useNavigate();
-
+  console.log(JOSE_CONTACT);
   return (
     <>
       <section>
