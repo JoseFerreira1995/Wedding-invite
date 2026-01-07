@@ -4,15 +4,15 @@ import bgImage from "../assets/4W8A9242.jpg";
 import logo from "../assets/logo.png";
 import { Calendar1Icon, MapPlusIcon, MessageCircleIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import {
+  CALENDAR_INFO,
+  INES_CONTACT,
+  JOSE_CONTACT,
+  MAP_INFO,
+} from "@/config/env";
 
 export default function MainPage() {
   const navigate = useNavigate();
-
-  const calendar =
-    "https://calendar.google.com/calendar/u/0/r/day/2026/7/11?tab=mc&date=20081101";
-  const mapAddress = "https://maps.app.goo.gl/uyJFurUmVWxohYU67";
-  const contactChatJose = "https://wa.me/351911527645";
-  const contactChatInes = "https://wa.me/351939504513";
 
   return (
     <>
@@ -47,13 +47,13 @@ export default function MainPage() {
       <section>
         <div className="flex gap-5 sm: flex-col m-10 ">
           <div className=" bg-blue-50 h-30 rounded-lg hover:bg-blue-100 active:scale-110 ">
-            <a href={calendar}>
+            <a href={CALENDAR_INFO}>
               <Card title="Dia 11 de Julho" description="14h30"></Card>
               <Calendar1Icon className=" text-sky-700 animate-bounce ml-[46%] mt-2"></Calendar1Icon>
             </a>
           </div>
           <div className="bg-blue-50 h-30 rounded-lg hover:bg-blue-100 active:scale-110">
-            <a href={mapAddress}>
+            <a href={MAP_INFO}>
               <Card title="Local" description="Quinta da Mota"></Card>
               <MapPlusIcon className=" text-sky-700 animate-bounce ml-[46%] mt-2"></MapPlusIcon>
             </a>
@@ -64,11 +64,11 @@ export default function MainPage() {
               description="Até dia 30 de abril de 2026"
             ></Card>
             <div className="flex justify-center space-x-20 mt-[5%]">
-              <a href={contactChatJose}>
+              <a href={JOSE_CONTACT}>
                 <MessageCircleIcon className="text-sky-700 animate-bounce  mt-2"></MessageCircleIcon>
                 <p>José</p>
               </a>
-              <a href={contactChatInes}>
+              <a href={INES_CONTACT}>
                 <MessageCircleIcon className="text-sky-700 animate-bounce  mt-2"></MessageCircleIcon>
                 <p>Inês</p>
               </a>
