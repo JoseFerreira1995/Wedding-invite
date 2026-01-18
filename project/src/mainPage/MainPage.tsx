@@ -48,7 +48,7 @@ export default function MainPage() {
         <div className="flex gap-5 sm: flex-col m-10 ">
           <div className=" bg-blue-50 h-30 rounded-lg hover:bg-blue-100 active:scale-110 ">
             <a href={CALENDAR_INFO}>
-              <Card title="Dia 11 de Julho" description="14h30"></Card>
+              <Card title="Dia 11 de Julho" description="14h00"></Card>
               <Calendar1Icon className=" text-sky-700 animate-bounce ml-[46%] mt-2"></Calendar1Icon>
             </a>
           </div>
