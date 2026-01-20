@@ -1,4 +1,3 @@
-import { ArrowUpIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import loveBird from "../assets/bird_mail_icon.svg";
 export default function LandingPage() {
@@ -6,15 +5,14 @@ export default function LandingPage() {
 
   return (
     <>
-      <div className=" flex flex-col items-center space-y-10 m-[20%] p-[5%] hover:cursor-pointer">
-        <img
-          className="animate-bounce"
-          src={loveBird}
-          onClick={() => {
-            navigate("/main");
-          }}
-        ></img>
-        <ArrowUpIcon></ArrowUpIcon>
+      <div
+        onClick={() => {
+          navigate("/main");
+        }}
+        className=" flex flex-col items-center space-y-10 m-[20%] p-[5%] hover:cursor-pointer"
+      >
+        <img className="animate-bounce" src={loveBird}></img>
+        <h1>Clica</h1>
       </div>
     </>
   );
